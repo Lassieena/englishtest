@@ -5,19 +5,18 @@
   padding: 95px;
   padding-top: 5px;
   border: 5px solid maroon;
-  background-color: lightblue;
+  background-color: #A7F1FF;
   position: relative;
-  top: 1px;
-
+  top: 1%;
 }
 
 h1 {
   color: red;
-  font-size: 300%;
+  font-size: 270%;
 }
 
 body {
-  background-color: #66FF99;
+  background-color: #43FF6B;
   width: 1000px;
   height: 50px;
   margin-right: auto;
@@ -49,8 +48,11 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0px 20px;
-  border: 3px solid lightcoral;
+  border: 3px solid #FF0066;
   border-style: solid;
+}
+#englishtest:hover {
+  background-color: #99FFFF;
 }
 
 #englishnext {
@@ -60,15 +62,19 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0px 20px;
-  border: 3px solid lightcoral;
+  border: 3px solid #FF0066;
   border-style: solid;
+}
+
+#englishnext:hover {
+  background-color: #99FFFF;
 }
 
 #output {
   width:800px;
   height:40px;
   font-size: 35px;
-  color: #FF0000
+  color: red;
 }
 
 textarea {
@@ -77,4 +83,30 @@ textarea {
 
 .test {
   font-size: 1.3em;
+}
+
+.button {
+  width: 6%;
+  height: 3%;
+  padding: 5px;
+  border: 3px solid #0033FF;
+  border-radius: 5px;
+  margin: 3px;
+  margin-right: auto;
+  position: absolute;
+  right: 12%;
+  top: 11%;
+}
+.button:hover {
+  background-color: #CCFFFF;
+} 
+
+.button-a {
+  display: block;
+  font-size: 18px;
+  text-align: center center;
+}
+
+.button-a:hover {
+  color: #EE0000;
 }
