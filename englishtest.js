@@ -1,5 +1,3 @@
-document.getElementById('answer').focus();
-
 const test = new Array();
 
 test[0]  = '1. follow her advice';
@@ -420,3 +418,5 @@ function foc() {
     document.form1.practice.value = "";
   }
 }
+
+document.getElementById('answer').focus();
