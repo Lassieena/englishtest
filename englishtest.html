@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>英作文テスト</title>
   <link rel="stylesheet" href="englishtest.css">
 </head>
+
 <body>
   <h1>システム英単語例文</h1>
-    <div class="test">
-      <p>○和訳してください<br>
-        <div id="question"></div>
-      </p>
-      <br>
-      <input type="text" id="answer" size="100" maxlength="80">
-      <button id="englishtest" onclick="OnButtonClick();">答え</button>
-      <button id="englishnext" onclick="window.location.reload();">
-        次の問題
-      </button>
-      <div id="output"></div>
-      <br>
-      <br>
-      <form name="form1">
-<textarea name="practice" cols="80" rows="5" onfocus="foc()">
+  <div class="test">
+    <p>○和訳してください<br>
+      <div id="question"></div>
+    </p>
+    <br>
+    <input type="text" id="answer" size="100" maxlength="80">
+    <button id="englishtest" onclick="OnButtonClick();">答え</button>
+    <button id="englishnext" onclick="nextButtonClick();">
+      次の問題
+    </button>
+    <div id="output"></div>
+    <br>
+    <br>
+    <form name="form1">
+      <textarea name="practice" cols="80" rows="5" onfocus="foc()">
 *練習用*
 単語をタイピングする練習などに使ってください
 </textarea>
-      </form>
-        <div class="button">
-          <a href="http://amzn.asia/d/0JvSWrp" target="_brank" style="text-decoration:none" class="button-a">
-            Amazon
-          </a>
-        </div>
+    </form>
+    <div class="button">
+      <a href="http://amzn.asia/d/0JvSWrp" target="_brank" style="text-decoration:none" class="button-a">
+        Amazon
+      </a>
     </div>
-    <script src="englishtest.js"></script>
+  </div>
+  <script src="englishtest.js"></script>
 </body>
+
 </html>
