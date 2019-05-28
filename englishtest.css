@@ -1,26 +1,36 @@
 .test {
   width: 790px;
   height: 400px;
-  margin : auto;
+  margin: auto;
   padding: 95px;
   padding-top: 5px;
-  border: 5px solid maroon;
+  border: 5px solid #000;
   background-color: #A7F1FF;
   position: relative;
   top: 1%;
 }
 
 h1 {
-  color: red;
   font-size: 270%;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
 
 body {
-  background-color: #43FF6B;
   width: 1000px;
   height: 50px;
   margin-right: auto;
   margin-left: auto;
+  font-family: 'Hiragino Kaku Gothic Pro',
+    'ヒラギノ角ゴ Pro W3',
+    Meiryo,
+    メイリオ,
+    Osaka,
+    'MS PGothic',
+    arial,
+    helvetica,
+    sans-serif;
+
 }
 
 .test p {
@@ -28,16 +38,16 @@ body {
 }
 
 #question {
-  width:800px;
-  height:40px;
+  width: 800px;
+  height: 40px;
   font-size: 35px;
   font-weight: bold;
 }
 
 .test input {
   position: static;
-  width:800px;
-  height:45px;
+  width: 800px;
+  height: 45px;
   font-size: 35px;
 }
 
@@ -48,9 +58,10 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0px 20px;
-  border: 3px solid #FF0066;
+  border: 3px solid #FFBBFF;
   border-style: solid;
 }
+
 #englishtest:hover {
   background-color: #99FFFF;
 }
@@ -62,7 +73,7 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0px 20px;
-  border: 3px solid #FF0066;
+  border: 3px solid #FFBBFF;
   border-style: solid;
 }
 
@@ -71,8 +82,8 @@ body {
 }
 
 #output {
-  width:800px;
-  height:40px;
+  width: 800px;
+  height: 40px;
   font-size: 35px;
   color: red;
 }
@@ -97,16 +108,13 @@ textarea {
   right: 0%;
   top: -11%;
 }
+
 .button:hover {
   background-color: #CCFFFF;
-} 
+}
 
 .button-a {
   display: block;
   font-size: 18px;
   text-align: center;
-}
-
-.button-a:hover {
-  color: #EE0000;
 }
